@@ -16,4 +16,11 @@ philly$percent_of_police <- philly$budget / philly$budget[philly$dept_name == "P
 philly$budget_millions <- philly$budget / 1000000
 philly$parent <- "test"
 
+philly <- dplyr::bind_rows(philly[1,, drop = FALSE], philly)
+philly[1, 1] <- "test"
+philly[1, 2] <- ""
+philly[1, 3] <- ""
+philly[1, 4] <- ""
+philly[1, 5] <- ""
+
 readr::write_csv(philly, path = here::here("data/clean/philly_budget.csv"))
