@@ -10,17 +10,14 @@ philly <-
   dplyr::select(dept_name,
                 x2021_revised) %>%
   dplyr::group_by(dept_name) %>%
-  dplyr::summarize(budget = sum(x2021_revised))
+  dplyr::summarize(budget = sum(x2021_revised)) %>%
+  dplyr::rename(name = dept_name)
 options(scipen = 99)
-philly$percent_of_police <- philly$budget / philly$budget[philly$dept_name == "Police"]
+philly$percent_of_police <- philly$budget / philly$budget[philly$name == "Police"]
 philly$budget_millions <- philly$budget / 1000000
 philly$parent <- "test"
+philly$value = philly$percent_of_police
 
-philly <- dplyr::bind_rows(philly[1,, drop = FALSE], philly)
-philly[1, 1] <- "test"
-philly[1, 2] <- ""
-philly[1, 3] <- ""
-philly[1, 4] <- ""
-philly[1, 5] <- ""
+
 
 readr::write_csv(philly, path = here::here("data/clean/philly_budget.csv"))
