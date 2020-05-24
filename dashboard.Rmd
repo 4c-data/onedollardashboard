@@ -30,7 +30,7 @@ data <- clean_philly_data()
 
 ### Figure name
 
-```{r, fig.height = 11}
+```{r, fig.height = 11, fig.width=9}
 make_barplot(data)
 ```
 
