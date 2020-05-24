@@ -67,10 +67,10 @@
 
     // stratify the data: reformatting for d3.js
     var root = d3.stratify()
-      .id(function(d) { return d.dept_name; })   // Name of the entity (column name is name in csv)
+      .id(function(d) { return d.name; })   // Name of the entity (column name is name in csv)
       .parentId(function(d) { return d.parent; })   // Name of the parent (column name is parent in csv)
       (data);
-    root.sum(function(d) { return +d.budget_millions })   // Compute the numeric value for each entity
+    root.sum(function(d) { return +d.value })   // Compute the numeric value for each entity
 
     // Then d3.treemap computes the position of each element of the hierarchy
     // The coordinates are added to the root object above
