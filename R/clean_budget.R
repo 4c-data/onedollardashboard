@@ -14,6 +14,6 @@ philly <-
 options(scipen = 99)
 philly$percent_of_police <- philly$budget / philly$budget[philly$dept_name == "Police"]
 philly$budget_millions <- philly$budget / 1000000
-
+philly$parent <- "test"
 
 readr::write_csv(philly, path = here::here("data/clean/philly_budget.csv"))

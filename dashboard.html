@@ -63,12 +63,12 @@
           "translate(" + margin.left + "," + margin.top + ")");
 
   // Read data
-  d3.csv("data/clean/philly_budget.csv", function(data) {
+  d3.csv('https://raw.githubusercontent.com/4c-data/onedollardashboard/master/data/clean/philly_budget.csv', function(data) {
 
     // stratify the data: reformatting for d3.js
     var root = d3.stratify()
       .id(function(d) { return d.dept_name; })   // Name of the entity (column name is name in csv)
-      .parentId(function(d) { return d.budget_millions; })   // Name of the parent (column name is parent in csv)
+      .parentId(function(d) { return d.parent; })   // Name of the parent (column name is parent in csv)
       (data);
     root.sum(function(d) { return +d.percent_of_police })   // Compute the numeric value for each entity
 
