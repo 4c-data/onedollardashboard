@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+  <link rel="icon" href="images/logo.png">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-99359926-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-99359926-8');
+  </script>
+
+
+  <title>Four Corners DATA Collective</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Four Corners DATA Collective is a consortium
+  of practitioners, researchers, and university scholars specializing in decarceral
+   prosecution and using data to inform policy and applied research.">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+
+  <nav>
+    <ul>
+      <li><a href="index.html"><img src="images/logo.png" id="logo"></a></li>
+      <li><a href='index.html'>Home</a></li>
+      <li><a href='dashboard.html'>Dashboard</a></li>
+      <li><a href='about.html'>About</a></li>
+    </ul>
+  </nav>
+
+  <div id="my_dataviz"></div>
+  <script>
+
+  // set the dimensions and margins of the graph
+  var margin = {top: 10, right: 10, bottom: 10, left: 10},
+    width = 445 - margin.left - margin.right,
+    height = 445 - margin.top - margin.bottom;
+
+  // append the svg object to the body of the page
+  var svg = d3.select("#my_dataviz")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+  // Read data
+  d3.csv("data/clean/philly_budget.csv", function(data) {
+
+    // stratify the data: reformatting for d3.js
+    var root = d3.stratify()
+      .id(function(d) { return d.dept_name; })   // Name of the entity (column name is name in csv)
+      .parentId(function(d) { return d.budget_millions; })   // Name of the parent (column name is parent in csv)
+      (data);
+    root.sum(function(d) { return +d.percent_of_police })   // Compute the numeric value for each entity
+
+    // Then d3.treemap computes the position of each element of the hierarchy
+    // The coordinates are added to the root object above
+    d3.treemap()
+      .size([width, height])
+      .padding(4)
+      (root)
+
+  console.log(root.leaves())
+    // use this information to add rectangles:
+    svg
+      .selectAll("rect")
+      .data(root.leaves())
+      .enter()
+      .append("rect")
+        .attr('x', function (d) { return d.x0; })
+        .attr('y', function (d) { return d.y0; })
+        .attr('width', function (d) { return d.x1 - d.x0; })
+        .attr('height', function (d) { return d.y1 - d.y0; })
+        .style("stroke", "black")
+        .style("fill", "#69b3a2");
+
+    // and to add the text labels
+    svg
+      .selectAll("text")
+      .data(root.leaves())
+      .enter()
+      .append("text")
+        .attr("x", function(d){ return d.x0+10})    // +10 to adjust position (more right)
+        .attr("y", function(d){ return d.y0+20})    // +20 to adjust position (lower)
+        .text(function(d){ return d.data.name})
+        .attr("font-size", "15px")
+        .attr("fill", "white")
+  })
+  </script>
+  <footer>
+      <p class="copyright">&copy; 2020 Four Corners DATA Analytics</p>
+  </footer>
+</body>
+
+</html>

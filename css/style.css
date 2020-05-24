@@ -1,0 +1,98 @@
+* {
+  font-family: Calibri, sans-serif;
+}
+
+body {
+  margin: 10px;
+}
+
+.col {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  display: block;
+    overflow: hidden;
+}
+
+.button {
+  background-color: #4f81bd;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+}
+
+.button:hover{
+    background-color: #4f81bd;
+    color: white;
+}
+
+ /* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 25%;
+  font-size: 42px;
+  left: 75%;
+  transform: translate(-75%, -25%);
+  text-align: right;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+#logo{
+    position:relative;
+    top:10px;
+    left:10px;
+    width:325px;
+    height:100px;
+    overflow:hidden;
+}
+footer {
+        position: relative;
+        height: 300px;
+        width: 100%;
+        background-color: white;
+        color: black
+    }
+
+    p.copyright {
+        position: absolute;
+        width: 100%;
+        color: black;
+        line-height: 40px;
+        font-size: 0.7em;
+        text-align: center;
+        bottom:0;
+    }
+nav{
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+nav li {
+    display: inline-block;
+    margin: 0 8px;
+    padding-top: 1px;
+    list-style-type: none;
+}
+nav li a{
+    font-size: 22px;
+    color: black;
+    padding: 11px;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: white;
+    color: black;
+}
