@@ -9,7 +9,7 @@ make_budget_table <- function(data) {
     dplyr::mutate_at(c("dollars_per_police_dollar",
                        "budget_millions",
                        "percent_of_budget"),
-                     round, 2) %>%
+                     round, 3) %>%
     dplyr::rename(Name                        = name,
                   "Dollars per Police Dollar" = dollars_per_police_dollar,
                   "Budget (in Millions)"      = budget_millions,

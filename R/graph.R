@@ -1,6 +1,6 @@
 make_barplot <- function(data) {
   
-  data$dollars_per_police_dollar <- round(data$dollars_per_police_dollar, 2)
+  data$dollars_per_police_dollar <- round(data$dollars_per_police_dollar, 3)
   p <- data %>%
     ggplot2::ggplot(ggplot2::aes(x = reorder(name, dollars_per_police_dollar),
                                  y = dollars_per_police_dollar,
