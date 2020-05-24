@@ -6,8 +6,7 @@ make_barplot <- function(data) {
                                  y = dollars_per_police_dollar,
                                  fill = police_col)) +
     ggplot2::geom_bar(stat = "identity") +
-    ggplot2::labs(title = "For Each $1 Philadelphia Spends on Police",
-                  subtitle = "They Spend ...",
+    ggplot2::labs(title = "For Each $1 Philadelphia Spends on Police, They Spend ...",
                   y = "Dollars",
                   x = "" )+
     ggplot2::coord_flip() +

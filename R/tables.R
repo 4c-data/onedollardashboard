@@ -13,7 +13,7 @@ make_budget_table <- function(data) {
     dplyr::rename(Name                        = name,
                   "Dollars per Police Dollar" = dollars_per_police_dollar,
                   "Budget (in Millions)"      = budget_millions,
-                  "% of Budget"               = percent_of_budget)
+                  "% of City Budget"               = percent_of_budget)
 
 
 
