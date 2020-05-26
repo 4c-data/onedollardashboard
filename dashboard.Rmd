@@ -28,13 +28,13 @@ source(here::here("R/tables.R"))
 data <- clean_philly_data()
 ```
 
-### Figure name
+### Philadelphia City Budget, Proposed 2021
 
 ```{r, fig.height = 11, fig.width=9}
 make_barplot(data)
 ```
 
-### Table name
+### Philadelphia City Budget, Proposed 2021
 
 ```{r, }
 make_budget_table(data)
