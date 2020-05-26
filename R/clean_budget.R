@@ -2,6 +2,7 @@ library(readr)
 library(here)
 library(dplyr)
 library(janitor)
+library(jsonlite)
 
 clean_philly_data <- function() {
   philly <- readr::read_csv(here::here("data/raw/philly_budget.csv"))
@@ -23,3 +24,11 @@ clean_philly_data <- function() {
   philly$police_col <- as.character(philly$police_col)
   return(philly)
 }
+
+philly_budget <- clean_philly_data() %>%
+  dplyr::mutate_if(is.numeric, round, 3) %>%
+  dplyr::arrange(name)
+philly_json <- jsonlite::toJSON(philly_budget,
+                                       pretty = TRUE)
+write(philly_json,
+      here::here("data/clean/philly_budget.json"))

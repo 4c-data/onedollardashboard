@@ -16,7 +16,7 @@
   </script>
 
 
-  <title>One Dollar Dashboard | About Us</title>
+  <title>One Dollar Dashboard | Build A Budget</title>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,23 +43,24 @@
     </ul>
   </nav>
 
-<div class="slidecontainer">
-      <form>
-  <div id = "box">
-  <script>
-  for (var i = 0; i < 10; i++) {
-      $("#box").append('<label for="slider' +  (i + 1) + '">Slider' +  (i + 1) + '</label>');
-            $("#box").append('<input type="number" name="slider_box' + (i+1) + '" min="0" max="100" value="0" oninput="this.form.range' + (i+1) + '.value=this.value"/>');
-      $("#box").append('<input class="slider" type="range" range-group="myGroup1" name="range' + (i+1) + '" id = "range' + (i+1) +'" range-group-max-sum="200" min="0" max="100" value = "0" oninput="this.form.slider_box' +  (i+1) + '.value=this.value"><br>');
+  <div class="slidecontainer">
+    <form>
+      <div id="box">
+        <script>
+          for (var i = 0; i < 10; i++) {
+            $("#box").append('<label for="slider' + (i + 1) + '">Slider' + (i + 1) + '</label>');
+            $("#box").append('<input type="number" name="slider_box' + (i + 1) + '" min="0" max="100" value="0" oninput="this.form.range' + (i + 1) + '.value=this.value"/>');
+            $("#box").append('<input class="slider" type="range" range-group="myGroup1" name="range' + (i + 1) + '" id = "range' + (i + 1) + '" range-group-max-sum="200" min="0" max="100" value = "0" oninput="this.form.slider_box' + (i + 1) +
+              '.value=this.value"><br>');
 
-    }
-</script>
-</div>
-</form>
-</div>
-    <footer>
-      <p class="copyright">&copy; 2020 Four Corners DATA Analytics</p>
-    </footer>
+          }
+        </script>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <p class="copyright">&copy; 2020 Four Corners DATA Analytics</p>
+  </footer>
 </body>
 
 </html>

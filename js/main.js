@@ -13,6 +13,19 @@ function readCSV(csv) {
   return result;
 }
 
+function get_budget_json(url) {
+data = $.getJSON({
+  url: url,
+  type: 'get',
+  dataType: 'json',
+  async: false,
+  success: function(data) {
+    result = data;
+  }
+});
+data = data.responseJSON;
+return (data);
+}
 
 function makeTable(type) {
   data = subsetColumns(table_data, table_headers, "table", type);
