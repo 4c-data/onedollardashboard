@@ -26,6 +26,8 @@ clean_philly_data <- function() {
 }
 
 philly_budget <- clean_philly_data() %>%
+  dplyr::mutate(total_budget = sum(budget),
+                total_budget_millions = sum(budget_millions)) %>%
   dplyr::mutate_if(is.numeric, round, 3) %>%
   dplyr::arrange(name)
 philly_json <- jsonlite::toJSON(philly_budget,

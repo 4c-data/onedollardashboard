@@ -47,6 +47,7 @@
     <form>
       <div id="box">
         <script>
+        philly_budget = get_budget_json("https://raw.githubusercontent.com/4c-data/onedollardashboard/master/data/clean/philly_budget.json");
           for (var i = 0; i < 10; i++) {
             $("#box").append('<label for="slider' + (i + 1) + '">Slider' + (i + 1) + '</label>');
             $("#box").append('<input type="number" name="slider_box' + (i + 1) + '" min="0" max="100" value="0" oninput="this.form.range' + (i + 1) + '.value=this.value"/>');
