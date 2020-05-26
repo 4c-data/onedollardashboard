@@ -42,16 +42,17 @@
       <li><a href='about.html'>About</a></li>
     </ul>
   </nav>
-
+<div id = "body_part">
   <div class="slidecontainer">
     <form>
       <div id="box">
+        <h2>Philadelphia's proposed budget for 2021 spends nearly $5 billion on city services. Below is the actual budget (in dollars). <br>Think you can do better?<br><br> Move the sliders to build your own budget.</h2>
         <script>
         philly_budget = get_budget_json("https://raw.githubusercontent.com/4c-data/onedollardashboard/master/data/clean/philly_budget.json");
-          for (var i = 0; i < 10; i++) {
-            $("#box").append('<label for="slider' + (i + 1) + '">Slider' + (i + 1) + '</label>');
-            $("#box").append('<input type="number" name="slider_box' + (i + 1) + '" min="0" max="100" value="0" oninput="this.form.range' + (i + 1) + '.value=this.value"/>');
-            $("#box").append('<input class="slider" type="range" range-group="myGroup1" name="range' + (i + 1) + '" id = "range' + (i + 1) + '" range-group-max-sum="200" min="0" max="100" value = "0" oninput="this.form.slider_box' + (i + 1) +
+          for (var i = 0; i < philly_budget.length; i++) {
+            $("#box").append('<label for="slider' + (i + 1) + '">' + philly_budget[i].name + '</label>&#09;&#09;');
+            $("#box").append('<input type="number" name="slider_box' + (i + 1) + '" min="0" max="' + philly_budget[0].total_budget + '" value="' + philly_budget[i].budget + '" oninput="this.form.range' + (i + 1) + '.value=this.value"/>');
+            $("#box").append('<input class="slider" type="range" range-group="myGroup1" name="range' + (i + 1) + '" id = "range' + (i + 1) + '" range-group-max-sum="' + philly_budget[0].total_budget + '" min="0" max="' + philly_budget[0].total_budget + '" value = "' + philly_budget[i].budget + '" oninput="this.form.slider_box' + (i + 1) +
               '.value=this.value"><br>');
 
           }
@@ -59,6 +60,7 @@
       </div>
     </form>
   </div>
+</div>
   <footer>
     <p class="copyright">&copy; 2020 Four Corners DATA Analytics</p>
   </footer>
