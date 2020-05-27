@@ -27,36 +27,30 @@ data = data.responseJSON;
 return (data);
 }
 
-function makeTable(type) {
-  data = subsetColumns(table_data, table_headers, "table", type);
-  data_keys = _.keys(data[0]);
-  data_keys = data_keys.filter(function(a) {
-    return !["agency", "year", "state", "ORI", "county", "sector", "fiscal_year", "school_name", "school_unique_ID"].includes(a);
-  });
-  // Adds commas in numbers to make it easier to read!
-  for (var m = 0; m < data.length; m++) {
-    for (n = 0; n < data_keys.length; n++) {
-      data[m][data_keys[n]] = parseFloat(data[m][data_keys[n]]).toLocaleString();
+function allowSaveGraph() {
+  var url = myLine.toBase64Image();
+}
 
-      if (data[m][data_keys[n]] == "NaN") {
-        data[m][data_keys[n]] = ""
-      }
-    }
-  }
+function makeTable(data) {
+
 //  console.log(table_headers)
-  // Makes real (as they appear in the data) names and pretty names
-  // as they will appear in the table.
-  table_columns = [];
-  for (var i = 0; i < table_headers.length; i++) {
-    label_name = fixTableName(table_headers[i], type);
-    data_name = fixTableDataName(table_headers[i], type);
-    table_columns.push({
-      data: data_name,
-      title: label_name,
-      className: "dt-head-left dt-body-right"
-    });
-  }
-  temp_table = $("#table").DataTable({
+// Makes real (as they appear in the data) names and pretty names
+// as they will appear in the table.
+table_headers = _.keys(data[0])
+console.log(table_headers)
+table_columns = [];
+for (var i = 0; i < table_headers.length; i++) {
+  label_name = table_headers[i];
+  data_name = table_headers[i];
+  table_columns.push({
+    data: data_name,
+    title: label_name,
+    className: "dt-head-left dt-body-right"
+  });
+}
+
+console.log(data)
+$("#table").DataTable({
     data: data,
     columns: table_columns,
     "scrollX": true,
@@ -67,23 +61,73 @@ function makeTable(type) {
     "lengthChange": true,
     "paging": true,
     "searching": true,
-    "pageLength": 25,
+    "pageLength": 51,
     "ordering": true,
-    "order": [1, "desc"],
-    "fixedHeader": true,
-    "render": function(data) {
-      if (typeof(data) == "undefined") {
-        return "tbd"
-      } else {
-        return data
-      }
+    "fixedHeader": true
+  });
+}
+
+function make_bar_plot(data) {
+  category = [];
+  cost = [];
+  background_color = [];
+
+  for (var n = 0; n < data.length; n++) {
+    category.push(data[n].name);
+    cost.push(data[n].budget);
+    if (data[n].name == "Police") {
+      background_color.push("#eb4034")
+    } else {
+      background_color.push("#787272")
+    }
+
+  }
+  new Chart(document.getElementById("graph"), {
+    type: 'horizontalBar',
+    data: {
+      labels: category,
+      datasets: [{
+        label: "Annual Budget (dollars)",
+        backgroundColor: background_color,
+        data: cost
+      }]
     },
-    fixedColumns: {
-      leftColumns: 2
+    options: {
+      legend: {
+        display: false
+      },
+      title: {
+        display: true,
+        text: 'Philadelphia Proposed Budget for 2021'
+      },
+      tooltips: {
+        callbacks: {
+          label: function(tooltipItem, data) {
+            var value = data.datasets[0].data[tooltipItem.index];
+            if (parseInt(value) >= 1000) {
+              return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            } else {
+              return value;
+            }
+          }
+        } // end callbacks:
+      },
+      scales: {
+        xAxes: [{
+          ticks: {
+            beginAtZero: true,
+            callback: function(value, index, values) {
+              if (parseInt(value) >= 1000) {
+                return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+              }
+            }
+          }
+        }]
+      }
     }
   });
-  return temp_table;
 }
+
 
 // Licensed under the MIT license (https://raw.githubusercontent.com/jhovgaard/jquery.rangegroup/master/LICENSE)
 
