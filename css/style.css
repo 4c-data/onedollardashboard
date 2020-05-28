@@ -1,9 +1,11 @@
 * {
-  font-family: Calibri, sans-serif;
+  box-sizing: border-box;
+  font-family: "PT Serif", serif;
 }
 
 body {
-  margin: 10px;
+  font-family: "PT Serif", serif;
+  margin: 0;
 }
 
 .col {
@@ -15,9 +17,91 @@ body {
   overflow: hidden;
 }
 
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+.column {
+  float: left;
+  background-color: transparent !important;
+}
 .slidecontainer {
   width: 50%;
 }
+
+
+.sidebar {
+  position: fixed;
+  width: 20%;
+  left: 0;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main {
+  margin-left: 20%;
+  width: 80%;
+}
+
+footer {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-color: white;
+  color: black
+}
+
+br {
+   display: block;
+   margin: 1px 0;
+}
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 670px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 671px) {
+  .sidebar {
+    width: 20%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .main {
+    width: 80%;
+  }
+
+  .crosswalk {
+    width: 95%;
+  }
+   .chart-container {
+    height: 400px !important;
+  }
+}
+
 
 .slider {
   -webkit-appearance: none;
@@ -96,17 +180,9 @@ body {
   overflow: hidden;
 }
 
-footer {
-  position: relative;
-  height: 300px;
-  width: 100%;
-  background-color: white;
-  color: black
-}
 
 #body_part {
   position: relative;
-
   left: 25%;
 }
 

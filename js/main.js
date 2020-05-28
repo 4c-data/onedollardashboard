@@ -73,6 +73,9 @@ for (var i = 0; i < table_headers.length; i++) {
   });
 }
 
+table_columns[0].className = "dt-head-left dt-body-right";
+table_columns[0].sClass = "dt-head-left dt-body-right";
+
 $("#table").DataTable({
     data: data,
     columns: table_columns,
@@ -86,8 +89,25 @@ $("#table").DataTable({
     "searching": true,
     "pageLength": 51,
     "ordering": true,
-    "fixedHeader": true
+    "fixedHeader": true,
+    fixedColumns: {
+      leftColumns: 1
+    }
   });
+}
+
+
+function make_dropdown(dropdown_id, dropdown_values, starter, starter_div) {
+  $(dropdown_id).empty();
+  $.each(dropdown_values, function(val, text) {
+    $(dropdown_id).append(new Option(text, val));
+  });
+
+  if (Array.isArray(starter)) {
+    starter = starter[$(starter_div).val()]
+  }
+
+  $(dropdown_id).val(starter);
 }
 
 function make_bar_plot(data) {

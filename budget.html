@@ -22,22 +22,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="One Dollar Dashboard allows people to
     see how much of their city's budget is allocated to categories relative to spending on the police.">
-        <link rel="stylesheet" href="cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
-  <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
-  <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
-  <link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
-  <script src="js/main.js" type="text/javascript"></script>
-
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min.js"></script>
+    <link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+    <script src="js/main.js" type="text/javascript"></script>
 </head>
 
 <body>
-  <div class="wrap"></div>
   <nav>
     <ul>
       <li><a href="index.html"><img src="images/logo.png" id="logo"></a></li>
@@ -47,9 +42,27 @@
       <li><a href='about.html'>About</a></li>
     </ul>
   </nav>
-  <div id="body_part">
+
+  <div class="column sidebar">
+    <p>Select a city and year to see the budget.</p>
+    <h3>City:</h3>
+    <br><br>
+    <select class="simple-select" id="city_dropdown" onchange="jailStateChange('jail', jail_state_values, jail_categories)"></select>
+    <h3>Year:</h3>
+    <br><br>
+    <select class="simple-select" id="year_dropdown" onchange="jailStateChange('jail', jail_state_values, jail_categories)"></select>
+    <br><br>
+    <hr>
+    <p>Show Budget as:</p>
+    <input type="checkbox" checked id="dollars" name="dollars" value="dollars" onchange="rateBoxesChange('#checkbox_4', 'police', state_values)"></input>
+    <label class="label-text fa" for="dollars">Dollars</label>
+    <br>
+    <input type="checkbox" id="percent" name="percent" value="police_rate_per_officer" onchange="rateBoxesChange('#rate', 'police', state_values)"></input>
+    <label class="label-text fa" for="percent">Percent</label>
+  </div>
+
+  <div class="column main">
     <form>
-    <div class="slidecontainer">
         <div id="box">
           <h2>Philadelphia's proposed budget for 2021 spends nearly $5 billion on city services. Below is the actual budget (in dollars). <br>Think you can do better?<br><br> Move the sliders to build your own budget.<br></h2>
           <script>
@@ -63,12 +76,7 @@
             }
           </script>
         </div>
-</form>
-    </div>
+    </form>
   </div>
-  <footer>
-    <p class="copyright">&copy; 2020 Four Corners DATA Analytics</p>
-  </footer>
 </body>
-
 </html>
