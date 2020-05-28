@@ -31,13 +31,37 @@ function allowSaveGraph() {
   var url = myLine.toBase64Image();
 }
 
+function sortByKey(array, key, decreasing = true) {
+  return array.sort(function(a, b) {
+    var x = a[key];
+    x = parseFloat(x);
+    var y = b[key];
+    y = parseFloat(y);
+    if (decreasing == true) {
+      return ((x > y) ? -1 : ((x < y) ? 1 : 0));
+    } else {
+    return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+    }
+  });
+}
+
 function makeTable(data) {
+  data_keys = _.keys(data[0]);
+  // Adds commas in numbers to make it easier to read!
+  for (var m = 0; m < data.length; m++) {
+    for (n = 1; n < data_keys.length; n++) {
+      data[m][data_keys[n]] = parseFloat(data[m][data_keys[n]]).toLocaleString();
+
+      if (data[m][data_keys[n]] == "NaN") {
+        data[m][data_keys[n]] = ""
+      }
+    }
+  }
 
 //  console.log(table_headers)
 // Makes real (as they appear in the data) names and pretty names
 // as they will appear in the table.
 table_headers = _.keys(data[0])
-console.log(table_headers)
 table_columns = [];
 for (var i = 0; i < table_headers.length; i++) {
   label_name = table_headers[i];
@@ -49,7 +73,6 @@ for (var i = 0; i < table_headers.length; i++) {
   });
 }
 
-console.log(data)
 $("#table").DataTable({
     data: data,
     columns: table_columns,
@@ -104,11 +127,7 @@ function make_bar_plot(data) {
         callbacks: {
           label: function(tooltipItem, data) {
             var value = data.datasets[0].data[tooltipItem.index];
-            if (parseInt(value) >= 1000) {
               return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-            } else {
-              return value;
-            }
           }
         } // end callbacks:
       },

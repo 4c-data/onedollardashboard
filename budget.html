@@ -24,15 +24,13 @@
     see how much of their city's budget is allocated to categories relative to spending on the police.">
         <link rel="stylesheet" href="cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
-  <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/b-1.5.1/b-html5-1.5.1/fc-3.2.4/r-2.2.1/datatables.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
   <link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
   <script src="js/main.js" type="text/javascript"></script>
 
@@ -50,6 +48,7 @@
     </ul>
   </nav>
   <div id="body_part">
+    <form>
     <div class="slidecontainer">
         <div id="box">
           <h2>Philadelphia's proposed budget for 2021 spends nearly $5 billion on city services. Below is the actual budget (in dollars). <br>Think you can do better?<br><br> Move the sliders to build your own budget.<br></h2>
@@ -64,15 +63,7 @@
             }
           </script>
         </div>
-        <canvas id="graph" style="width:95%;height:1200px;"></canvas>
-        <div>
-          <table id="table" class="display"></table>
-        </div>
-        <script>
-        make_bar_plot(philly_budget);
-        makeTable(philly_budget);
-        </script>
-
+</form>
     </div>
   </div>
   <footer>
