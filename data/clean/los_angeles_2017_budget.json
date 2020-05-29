@@ -1,0 +1,522 @@
+[
+  {
+    "name": "Aging",
+    "fiscal_year": 2017,
+    "budget": 31263558,
+    "dollars_per_police_dollar": 0.02,
+    "percent_of_budget": 0.182,
+    "total_budget": 17140926415.65,
+    "budget_millions": 31.264,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Airports",
+    "fiscal_year": 2017,
+    "budget": 0,
+    "dollars_per_police_dollar": 0,
+    "percent_of_budget": 0,
+    "total_budget": 17140926415.65,
+    "budget_millions": 0,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Animal Services",
+    "fiscal_year": 2017,
+    "budget": 25617520.87,
+    "dollars_per_police_dollar": 0.017,
+    "percent_of_budget": 0.149,
+    "total_budget": 17140926415.65,
+    "budget_millions": 25.618,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Building and Safety",
+    "fiscal_year": 2017,
+    "budget": 369878768.19,
+    "dollars_per_police_dollar": 0.239,
+    "percent_of_budget": 2.158,
+    "total_budget": 17140926415.65,
+    "budget_millions": 369.879,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "City Administrative Officer",
+    "fiscal_year": 2017,
+    "budget": 1704795638.54,
+    "dollars_per_police_dollar": 1.102,
+    "percent_of_budget": 9.946,
+    "total_budget": 17140926415.65,
+    "budget_millions": 1704.796,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "City Attorney",
+    "fiscal_year": 2017,
+    "budget": 148233550.4,
+    "dollars_per_police_dollar": 0.096,
+    "percent_of_budget": 0.865,
+    "total_budget": 17140926415.65,
+    "budget_millions": 148.234,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "City Clerk",
+    "fiscal_year": 2017,
+    "budget": 38224741.97,
+    "dollars_per_police_dollar": 0.025,
+    "percent_of_budget": 0.223,
+    "total_budget": 17140926415.65,
+    "budget_millions": 38.225,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "City Employees Retirement System",
+    "fiscal_year": 2017,
+    "budget": 1036152348,
+    "dollars_per_police_dollar": 0.67,
+    "percent_of_budget": 6.045,
+    "total_budget": 17140926415.65,
+    "budget_millions": 1036.152,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "City Ethics Commission",
+    "fiscal_year": 2017,
+    "budget": 7960871.78,
+    "dollars_per_police_dollar": 0.005,
+    "percent_of_budget": 0.046,
+    "total_budget": 17140926415.65,
+    "budget_millions": 7.961,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "City Planning",
+    "fiscal_year": 2017,
+    "budget": 94975430.08,
+    "dollars_per_police_dollar": 0.061,
+    "percent_of_budget": 0.554,
+    "total_budget": 17140926415.65,
+    "budget_millions": 94.975,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Controller",
+    "fiscal_year": 2017,
+    "budget": 60387845.87,
+    "dollars_per_police_dollar": 0.039,
+    "percent_of_budget": 0.352,
+    "total_budget": 17140926415.65,
+    "budget_millions": 60.388,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Council",
+    "fiscal_year": 2017,
+    "budget": 51123716.9,
+    "dollars_per_police_dollar": 0.033,
+    "percent_of_budget": 0.298,
+    "total_budget": 17140926415.65,
+    "budget_millions": 51.124,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Cultural Affairs",
+    "fiscal_year": 2017,
+    "budget": 36569206.76,
+    "dollars_per_police_dollar": 0.024,
+    "percent_of_budget": 0.213,
+    "total_budget": 17140926415.65,
+    "budget_millions": 36.569,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Disability",
+    "fiscal_year": 2017,
+    "budget": 3399547.76,
+    "dollars_per_police_dollar": 0.002,
+    "percent_of_budget": 0.02,
+    "total_budget": 17140926415.65,
+    "budget_millions": 3.4,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Economic and Workforce Development Department",
+    "fiscal_year": 2017,
+    "budget": 98373417.02,
+    "dollars_per_police_dollar": 0.064,
+    "percent_of_budget": 0.574,
+    "total_budget": 17140926415.65,
+    "budget_millions": 98.373,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "El Pueblo De Los Angeles Historical Monument Authority",
+    "fiscal_year": 2017,
+    "budget": 6617750.59,
+    "dollars_per_police_dollar": 0.004,
+    "percent_of_budget": 0.039,
+    "total_budget": 17140926415.65,
+    "budget_millions": 6.618,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Emergency Management",
+    "fiscal_year": 2017,
+    "budget": 3314163.96,
+    "dollars_per_police_dollar": 0.002,
+    "percent_of_budget": 0.019,
+    "total_budget": 17140926415.65,
+    "budget_millions": 3.314,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Emergency Operations Board",
+    "fiscal_year": 2017,
+    "budget": 926494.18,
+    "dollars_per_police_dollar": 0.001,
+    "percent_of_budget": 0.005,
+    "total_budget": 17140926415.65,
+    "budget_millions": 0.926,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Employee Relations Board",
+    "fiscal_year": 2017,
+    "budget": 420264,
+    "dollars_per_police_dollar": 0,
+    "percent_of_budget": 0.002,
+    "total_budget": 17140926415.65,
+    "budget_millions": 0.42,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Fire",
+    "fiscal_year": 2017,
+    "budget": 684852699.45,
+    "dollars_per_police_dollar": 0.443,
+    "percent_of_budget": 3.995,
+    "total_budget": 17140926415.65,
+    "budget_millions": 684.853,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "General Services",
+    "fiscal_year": 2017,
+    "budget": 407141869.36,
+    "dollars_per_police_dollar": 0.263,
+    "percent_of_budget": 2.375,
+    "total_budget": 17140926415.65,
+    "budget_millions": 407.142,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Harbor",
+    "fiscal_year": 2017,
+    "budget": 0,
+    "dollars_per_police_dollar": 0,
+    "percent_of_budget": 0,
+    "total_budget": 17140926415.65,
+    "budget_millions": 0,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Housing and Community Investment Department",
+    "fiscal_year": 2017,
+    "budget": 412438586.93,
+    "dollars_per_police_dollar": 0.267,
+    "percent_of_budget": 2.406,
+    "total_budget": 17140926415.65,
+    "budget_millions": 412.439,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Information Technology Agency",
+    "fiscal_year": 2017,
+    "budget": 124745102.01,
+    "dollars_per_police_dollar": 0.081,
+    "percent_of_budget": 0.728,
+    "total_budget": 17140926415.65,
+    "budget_millions": 124.745,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Library",
+    "fiscal_year": 2017,
+    "budget": 168440673,
+    "dollars_per_police_dollar": 0.109,
+    "percent_of_budget": 0.983,
+    "total_budget": 17140926415.65,
+    "budget_millions": 168.441,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Los Angeles Department of Convention and Tourism Development",
+    "fiscal_year": 2017,
+    "budget": 36543565.56,
+    "dollars_per_police_dollar": 0.024,
+    "percent_of_budget": 0.213,
+    "total_budget": 17140926415.65,
+    "budget_millions": 36.544,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Mayor",
+    "fiscal_year": 2017,
+    "budget": 131785134.14,
+    "dollars_per_police_dollar": 0.085,
+    "percent_of_budget": 0.769,
+    "total_budget": 17140926415.65,
+    "budget_millions": 131.785,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Neighborhood Empowerment",
+    "fiscal_year": 2017,
+    "budget": 9032377.49,
+    "dollars_per_police_dollar": 0.006,
+    "percent_of_budget": 0.053,
+    "total_budget": 17140926415.65,
+    "budget_millions": 9.032,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Non-Departmental - Appropriations to Special Purpose Fund",
+    "fiscal_year": 2017,
+    "budget": 2151701928.63,
+    "dollars_per_police_dollar": 1.39,
+    "percent_of_budget": 12.553,
+    "total_budget": 17140926415.65,
+    "budget_millions": 2151.702,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Non-Departmental - Capital Finance Administration",
+    "fiscal_year": 2017,
+    "budget": 221395878.65,
+    "dollars_per_police_dollar": 0.143,
+    "percent_of_budget": 1.292,
+    "total_budget": 17140926415.65,
+    "budget_millions": 221.396,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Non-Departmental - Capital Improvement Expense Program",
+    "fiscal_year": 2017,
+    "budget": 17445068.81,
+    "dollars_per_police_dollar": 0.011,
+    "percent_of_budget": 0.102,
+    "total_budget": 17140926415.65,
+    "budget_millions": 17.445,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Non-Departmental - General",
+    "fiscal_year": 2017,
+    "budget": 3064165194.4,
+    "dollars_per_police_dollar": 1.98,
+    "percent_of_budget": 17.876,
+    "total_budget": 17140926415.65,
+    "budget_millions": 3064.165,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Non-Departmental - General City Purposes",
+    "fiscal_year": 2017,
+    "budget": 81405119.7,
+    "dollars_per_police_dollar": 0.053,
+    "percent_of_budget": 0.475,
+    "total_budget": 17140926415.65,
+    "budget_millions": 81.405,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Non-Departmental - Human Resources Benefits",
+    "fiscal_year": 2017,
+    "budget": 1007835075.98,
+    "dollars_per_police_dollar": 0.651,
+    "percent_of_budget": 5.88,
+    "total_budget": 17140926415.65,
+    "budget_millions": 1007.835,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Non-Departmental - Liability Claims",
+    "fiscal_year": 2017,
+    "budget": 204829807.46,
+    "dollars_per_police_dollar": 0.132,
+    "percent_of_budget": 1.195,
+    "total_budget": 17140926415.65,
+    "budget_millions": 204.83,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Non-Departmental - Unappropriated Balance",
+    "fiscal_year": 2017,
+    "budget": 14380227.56,
+    "dollars_per_police_dollar": 0.009,
+    "percent_of_budget": 0.084,
+    "total_budget": 17140926415.65,
+    "budget_millions": 14.38,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Non-Departmental - Water and Electricity",
+    "fiscal_year": 2017,
+    "budget": 41800000,
+    "dollars_per_police_dollar": 0.027,
+    "percent_of_budget": 0.244,
+    "total_budget": 17140926415.65,
+    "budget_millions": 41.8,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Office of Finance",
+    "fiscal_year": 2017,
+    "budget": 161514876.77,
+    "dollars_per_police_dollar": 0.104,
+    "percent_of_budget": 0.942,
+    "total_budget": 17140926415.65,
+    "budget_millions": 161.515,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Pension",
+    "fiscal_year": 2017,
+    "budget": 1187829126.44,
+    "dollars_per_police_dollar": 0.768,
+    "percent_of_budget": 6.93,
+    "total_budget": 17140926415.65,
+    "budget_millions": 1187.829,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Personnel",
+    "fiscal_year": 2017,
+    "budget": 62746660.03,
+    "dollars_per_police_dollar": 0.041,
+    "percent_of_budget": 0.366,
+    "total_budget": 17140926415.65,
+    "budget_millions": 62.747,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Police",
+    "fiscal_year": 2017,
+    "budget": 1547439891.81,
+    "dollars_per_police_dollar": 1,
+    "percent_of_budget": 9.028,
+    "total_budget": 17140926415.65,
+    "budget_millions": 1547.44,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Public Works - Board of Public Works",
+    "fiscal_year": 2017,
+    "budget": 22918205.58,
+    "dollars_per_police_dollar": 0.015,
+    "percent_of_budget": 0.134,
+    "total_budget": 17140926415.65,
+    "budget_millions": 22.918,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Public Works - Contract Administration",
+    "fiscal_year": 2017,
+    "budget": 35679055.66,
+    "dollars_per_police_dollar": 0.023,
+    "percent_of_budget": 0.208,
+    "total_budget": 17140926415.65,
+    "budget_millions": 35.679,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Public Works - Engineering",
+    "fiscal_year": 2017,
+    "budget": 93217914.34,
+    "dollars_per_police_dollar": 0.06,
+    "percent_of_budget": 0.544,
+    "total_budget": 17140926415.65,
+    "budget_millions": 93.218,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Public Works - Sanitation",
+    "fiscal_year": 2017,
+    "budget": 263722833.88,
+    "dollars_per_police_dollar": 0.17,
+    "percent_of_budget": 1.539,
+    "total_budget": 17140926415.65,
+    "budget_millions": 263.723,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Public Works - Street Lighting",
+    "fiscal_year": 2017,
+    "budget": 37455666.87,
+    "dollars_per_police_dollar": 0.024,
+    "percent_of_budget": 0.219,
+    "total_budget": 17140926415.65,
+    "budget_millions": 37.456,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Public Works - Street Services",
+    "fiscal_year": 2017,
+    "budget": 189825013.45,
+    "dollars_per_police_dollar": 0.123,
+    "percent_of_budget": 1.107,
+    "total_budget": 17140926415.65,
+    "budget_millions": 189.825,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Recreation and Parks",
+    "fiscal_year": 2017,
+    "budget": 318304010.78,
+    "dollars_per_police_dollar": 0.206,
+    "percent_of_budget": 1.857,
+    "total_budget": 17140926415.65,
+    "budget_millions": 318.304,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Recreation and Parks - Special Accounts",
+    "fiscal_year": 2017,
+    "budget": 71848313.61,
+    "dollars_per_police_dollar": 0.046,
+    "percent_of_budget": 0.419,
+    "total_budget": 17140926415.65,
+    "budget_millions": 71.848,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Transportation",
+    "fiscal_year": 2017,
+    "budget": 608532640.07,
+    "dollars_per_police_dollar": 0.393,
+    "percent_of_budget": 3.55,
+    "total_budget": 17140926415.65,
+    "budget_millions": 608.533,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Water and Power",
+    "fiscal_year": 2017,
+    "budget": 0,
+    "dollars_per_police_dollar": 0,
+    "percent_of_budget": 0,
+    "total_budget": 17140926415.65,
+    "budget_millions": 0,
+    "total_budget_millions": 17140.926
+  },
+  {
+    "name": "Zoo",
+    "fiscal_year": 2017,
+    "budget": 41719062.36,
+    "dollars_per_police_dollar": 0.027,
+    "percent_of_budget": 0.243,
+    "total_budget": 17140926415.65,
+    "budget_millions": 41.719,
+    "total_budget_millions": 17140.926
+  }
+]

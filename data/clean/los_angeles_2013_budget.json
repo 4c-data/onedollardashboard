@@ -1,0 +1,532 @@
+[
+  {
+    "name": "Aging",
+    "fiscal_year": 2013,
+    "budget": 29482092,
+    "dollars_per_police_dollar": 0.023,
+    "percent_of_budget": 0.206,
+    "total_budget": 14332959067.71,
+    "budget_millions": 29.482,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Airports",
+    "fiscal_year": 2013,
+    "budget": 0,
+    "dollars_per_police_dollar": 0,
+    "percent_of_budget": 0,
+    "total_budget": 14332959067.71,
+    "budget_millions": 0,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Animal Services",
+    "fiscal_year": 2013,
+    "budget": 22595222.92,
+    "dollars_per_police_dollar": 0.017,
+    "percent_of_budget": 0.158,
+    "total_budget": 14332959067.71,
+    "budget_millions": 22.595,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Building and Safety",
+    "fiscal_year": 2013,
+    "budget": 177103296.96,
+    "dollars_per_police_dollar": 0.137,
+    "percent_of_budget": 1.236,
+    "total_budget": 14332959067.71,
+    "budget_millions": 177.103,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "City Administrative Officer",
+    "fiscal_year": 2013,
+    "budget": 1408899545.91,
+    "dollars_per_police_dollar": 1.086,
+    "percent_of_budget": 9.83,
+    "total_budget": 14332959067.71,
+    "budget_millions": 1408.9,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "City Attorney",
+    "fiscal_year": 2013,
+    "budget": 116886485.83,
+    "dollars_per_police_dollar": 0.09,
+    "percent_of_budget": 0.816,
+    "total_budget": 14332959067.71,
+    "budget_millions": 116.886,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "City Clerk",
+    "fiscal_year": 2013,
+    "budget": 48750146.84,
+    "dollars_per_police_dollar": 0.038,
+    "percent_of_budget": 0.34,
+    "total_budget": 14332959067.71,
+    "budget_millions": 48.75,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "City Employees Retirement System",
+    "fiscal_year": 2013,
+    "budget": 919525658,
+    "dollars_per_police_dollar": 0.709,
+    "percent_of_budget": 6.415,
+    "total_budget": 14332959067.71,
+    "budget_millions": 919.526,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "City Ethics Commission",
+    "fiscal_year": 2013,
+    "budget": 14742332.66,
+    "dollars_per_police_dollar": 0.011,
+    "percent_of_budget": 0.103,
+    "total_budget": 14332959067.71,
+    "budget_millions": 14.742,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "City Planning",
+    "fiscal_year": 2013,
+    "budget": 53735291.61,
+    "dollars_per_police_dollar": 0.041,
+    "percent_of_budget": 0.375,
+    "total_budget": 14332959067.71,
+    "budget_millions": 53.735,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Coliseum/Sports Arena",
+    "fiscal_year": 2013,
+    "budget": 2067587,
+    "dollars_per_police_dollar": 0.002,
+    "percent_of_budget": 0.014,
+    "total_budget": 14332959067.71,
+    "budget_millions": 2.068,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Controller",
+    "fiscal_year": 2013,
+    "budget": 54578379.45,
+    "dollars_per_police_dollar": 0.042,
+    "percent_of_budget": 0.381,
+    "total_budget": 14332959067.71,
+    "budget_millions": 54.578,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Council",
+    "fiscal_year": 2013,
+    "budget": 43955355.7,
+    "dollars_per_police_dollar": 0.034,
+    "percent_of_budget": 0.307,
+    "total_budget": 14332959067.71,
+    "budget_millions": 43.955,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Cultural Affairs",
+    "fiscal_year": 2013,
+    "budget": 23250985.02,
+    "dollars_per_police_dollar": 0.018,
+    "percent_of_budget": 0.162,
+    "total_budget": 14332959067.71,
+    "budget_millions": 23.251,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Disability",
+    "fiscal_year": 2013,
+    "budget": 3065057,
+    "dollars_per_police_dollar": 0.002,
+    "percent_of_budget": 0.021,
+    "total_budget": 14332959067.71,
+    "budget_millions": 3.065,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Economic and Workforce Development Department",
+    "fiscal_year": 2013,
+    "budget": 205002516.56,
+    "dollars_per_police_dollar": 0.158,
+    "percent_of_budget": 1.43,
+    "total_budget": 14332959067.71,
+    "budget_millions": 205.003,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "El Pueblo De Los Angeles Historical Monument Authority",
+    "fiscal_year": 2013,
+    "budget": 6591478.07,
+    "dollars_per_police_dollar": 0.005,
+    "percent_of_budget": 0.046,
+    "total_budget": 14332959067.71,
+    "budget_millions": 6.591,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Emergency Management",
+    "fiscal_year": 2013,
+    "budget": 2872395.25,
+    "dollars_per_police_dollar": 0.002,
+    "percent_of_budget": 0.02,
+    "total_budget": 14332959067.71,
+    "budget_millions": 2.872,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Emergency Operations Board",
+    "fiscal_year": 2013,
+    "budget": 919999.22,
+    "dollars_per_police_dollar": 0.001,
+    "percent_of_budget": 0.006,
+    "total_budget": 14332959067.71,
+    "budget_millions": 0.92,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Employee Relations Board",
+    "fiscal_year": 2013,
+    "budget": 400284,
+    "dollars_per_police_dollar": 0,
+    "percent_of_budget": 0.003,
+    "total_budget": 14332959067.71,
+    "budget_millions": 0.4,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Fire",
+    "fiscal_year": 2013,
+    "budget": 540998375.19,
+    "dollars_per_police_dollar": 0.417,
+    "percent_of_budget": 3.775,
+    "total_budget": 14332959067.71,
+    "budget_millions": 540.998,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "General Services",
+    "fiscal_year": 2013,
+    "budget": 354452766.77,
+    "dollars_per_police_dollar": 0.273,
+    "percent_of_budget": 2.473,
+    "total_budget": 14332959067.71,
+    "budget_millions": 354.453,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Harbor",
+    "fiscal_year": 2013,
+    "budget": 0,
+    "dollars_per_police_dollar": 0,
+    "percent_of_budget": 0,
+    "total_budget": 14332959067.71,
+    "budget_millions": 0,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Housing and Community Investment Department",
+    "fiscal_year": 2013,
+    "budget": 239983502.53,
+    "dollars_per_police_dollar": 0.185,
+    "percent_of_budget": 1.674,
+    "total_budget": 14332959067.71,
+    "budget_millions": 239.984,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Information Technology Agency",
+    "fiscal_year": 2013,
+    "budget": 106865923.17,
+    "dollars_per_police_dollar": 0.082,
+    "percent_of_budget": 0.746,
+    "total_budget": 14332959067.71,
+    "budget_millions": 106.866,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Library",
+    "fiscal_year": 2013,
+    "budget": 107538627,
+    "dollars_per_police_dollar": 0.083,
+    "percent_of_budget": 0.75,
+    "total_budget": 14332959067.71,
+    "budget_millions": 107.539,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Los Angeles Department of Convention and Tourism Development",
+    "fiscal_year": 2013,
+    "budget": 50386877.57,
+    "dollars_per_police_dollar": 0.039,
+    "percent_of_budget": 0.352,
+    "total_budget": 14332959067.71,
+    "budget_millions": 50.387,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Mayor",
+    "fiscal_year": 2013,
+    "budget": 104350359.09,
+    "dollars_per_police_dollar": 0.08,
+    "percent_of_budget": 0.728,
+    "total_budget": 14332959067.71,
+    "budget_millions": 104.35,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Neighborhood Empowerment",
+    "fiscal_year": 2013,
+    "budget": 7934564.69,
+    "dollars_per_police_dollar": 0.006,
+    "percent_of_budget": 0.055,
+    "total_budget": 14332959067.71,
+    "budget_millions": 7.935,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Non-Departmental - Appropriations to Special Purpose Fund",
+    "fiscal_year": 2013,
+    "budget": 1913627544.43,
+    "dollars_per_police_dollar": 1.476,
+    "percent_of_budget": 13.351,
+    "total_budget": 14332959067.71,
+    "budget_millions": 1913.628,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Non-Departmental - Capital Finance Administration",
+    "fiscal_year": 2013,
+    "budget": 215258250.76,
+    "dollars_per_police_dollar": 0.166,
+    "percent_of_budget": 1.502,
+    "total_budget": 14332959067.71,
+    "budget_millions": 215.258,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Non-Departmental - Capital Improvement Expense Program",
+    "fiscal_year": 2013,
+    "budget": 12855968.49,
+    "dollars_per_police_dollar": 0.01,
+    "percent_of_budget": 0.09,
+    "total_budget": 14332959067.71,
+    "budget_millions": 12.856,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Non-Departmental - General",
+    "fiscal_year": 2013,
+    "budget": 2475256379.94,
+    "dollars_per_police_dollar": 1.909,
+    "percent_of_budget": 17.27,
+    "total_budget": 14332959067.71,
+    "budget_millions": 2475.256,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Non-Departmental - General City Purposes",
+    "fiscal_year": 2013,
+    "budget": 61731187.55,
+    "dollars_per_police_dollar": 0.048,
+    "percent_of_budget": 0.431,
+    "total_budget": 14332959067.71,
+    "budget_millions": 61.731,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Non-Departmental - Human Resources Benefits",
+    "fiscal_year": 2013,
+    "budget": 874203848.73,
+    "dollars_per_police_dollar": 0.674,
+    "percent_of_budget": 6.099,
+    "total_budget": 14332959067.71,
+    "budget_millions": 874.204,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Non-Departmental - Liability Claims",
+    "fiscal_year": 2013,
+    "budget": 56943612.88,
+    "dollars_per_police_dollar": 0.044,
+    "percent_of_budget": 0.397,
+    "total_budget": 14332959067.71,
+    "budget_millions": 56.944,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Non-Departmental - Unappropriated Balance",
+    "fiscal_year": 2013,
+    "budget": 6403648.19,
+    "dollars_per_police_dollar": 0.005,
+    "percent_of_budget": 0.045,
+    "total_budget": 14332959067.71,
+    "budget_millions": 6.404,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Non-Departmental - Water and Electricity",
+    "fiscal_year": 2013,
+    "budget": 38050471.56,
+    "dollars_per_police_dollar": 0.029,
+    "percent_of_budget": 0.265,
+    "total_budget": 14332959067.71,
+    "budget_millions": 38.05,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Office of Finance",
+    "fiscal_year": 2013,
+    "budget": 200723043.69,
+    "dollars_per_police_dollar": 0.155,
+    "percent_of_budget": 1.4,
+    "total_budget": 14332959067.71,
+    "budget_millions": 200.723,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Pension",
+    "fiscal_year": 2013,
+    "budget": 1096742576,
+    "dollars_per_police_dollar": 0.846,
+    "percent_of_budget": 7.652,
+    "total_budget": 14332959067.71,
+    "budget_millions": 1096.743,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Personnel",
+    "fiscal_year": 2013,
+    "budget": 53029410.06,
+    "dollars_per_police_dollar": 0.041,
+    "percent_of_budget": 0.37,
+    "total_budget": 14332959067.71,
+    "budget_millions": 53.029,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Police",
+    "fiscal_year": 2013,
+    "budget": 1296875100.25,
+    "dollars_per_police_dollar": 1,
+    "percent_of_budget": 9.048,
+    "total_budget": 14332959067.71,
+    "budget_millions": 1296.875,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Public Works - Board of Public Works",
+    "fiscal_year": 2013,
+    "budget": 16945645.58,
+    "dollars_per_police_dollar": 0.013,
+    "percent_of_budget": 0.118,
+    "total_budget": 14332959067.71,
+    "budget_millions": 16.946,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Public Works - Contract Administration",
+    "fiscal_year": 2013,
+    "budget": 31730451.64,
+    "dollars_per_police_dollar": 0.024,
+    "percent_of_budget": 0.221,
+    "total_budget": 14332959067.71,
+    "budget_millions": 31.73,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Public Works - Engineering",
+    "fiscal_year": 2013,
+    "budget": 79945620.83,
+    "dollars_per_police_dollar": 0.062,
+    "percent_of_budget": 0.558,
+    "total_budget": 14332959067.71,
+    "budget_millions": 79.946,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Public Works - Sanitation",
+    "fiscal_year": 2013,
+    "budget": 222844618.25,
+    "dollars_per_police_dollar": 0.172,
+    "percent_of_budget": 1.555,
+    "total_budget": 14332959067.71,
+    "budget_millions": 222.845,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Public Works - Street Lighting",
+    "fiscal_year": 2013,
+    "budget": 27257051.14,
+    "dollars_per_police_dollar": 0.021,
+    "percent_of_budget": 0.19,
+    "total_budget": 14332959067.71,
+    "budget_millions": 27.257,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Public Works - Street Services",
+    "fiscal_year": 2013,
+    "budget": 181710378.6,
+    "dollars_per_police_dollar": 0.14,
+    "percent_of_budget": 1.268,
+    "total_budget": 14332959067.71,
+    "budget_millions": 181.71,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Recreation and Parks",
+    "fiscal_year": 2013,
+    "budget": 223813268.73,
+    "dollars_per_police_dollar": 0.173,
+    "percent_of_budget": 1.562,
+    "total_budget": 14332959067.71,
+    "budget_millions": 223.813,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Recreation and Parks - Special Accounts",
+    "fiscal_year": 2013,
+    "budget": 65118691.97,
+    "dollars_per_police_dollar": 0.05,
+    "percent_of_budget": 0.454,
+    "total_budget": 14332959067.71,
+    "budget_millions": 65.119,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Transportation",
+    "fiscal_year": 2013,
+    "budget": 499678520.45,
+    "dollars_per_police_dollar": 0.385,
+    "percent_of_budget": 3.486,
+    "total_budget": 14332959067.71,
+    "budget_millions": 499.679,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Water and Power",
+    "fiscal_year": 2013,
+    "budget": 0,
+    "dollars_per_police_dollar": 0,
+    "percent_of_budget": 0,
+    "total_budget": 14332959067.71,
+    "budget_millions": 0,
+    "total_budget_millions": 14332.959
+  },
+  {
+    "name": "Zoo",
+    "fiscal_year": 2013,
+    "budget": 35278671.98,
+    "dollars_per_police_dollar": 0.027,
+    "percent_of_budget": 0.246,
+    "total_budget": 14332959067.71,
+    "budget_millions": 35.279,
+    "total_budget_millions": 14332.959
+  }
+]

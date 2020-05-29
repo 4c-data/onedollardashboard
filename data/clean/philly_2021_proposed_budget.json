@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Art Museum",
+    "budget": 2040000,
+    "dollars_per_police_dollar": 0.003,
+    "budget_millions": 2.04,
+    "percent_of_budget": 0.042,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Arts & Culture",
+    "budget": 0,
+    "dollars_per_police_dollar": 0,
+    "budget_millions": 0,
+    "percent_of_budget": 0,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Atwater Kent",
+    "budget": 0,
+    "dollars_per_police_dollar": 0,
+    "budget_millions": 0,
+    "percent_of_budget": 0,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Behavioral Health",
+    "budget": 15476560,
+    "dollars_per_police_dollar": 0.02,
+    "budget_millions": 15.477,
+    "percent_of_budget": 0.316,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Board of Bldg. Stds.",
+    "budget": 82018,
+    "dollars_per_police_dollar": 0,
+    "budget_millions": 0.082,
+    "percent_of_budget": 0.002,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Board of Ethics",
+    "budget": 950218,
+    "dollars_per_police_dollar": 0.001,
+    "budget_millions": 0.95,
+    "percent_of_budget": 0.019,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Board of Review",
+    "budget": 174980,
+    "dollars_per_police_dollar": 0,
+    "budget_millions": 0.175,
+    "percent_of_budget": 0.004,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Chief Admin. Officer",
+    "budget": 6322355,
+    "dollars_per_police_dollar": 0.008,
+    "budget_millions": 6.322,
+    "percent_of_budget": 0.129,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Children and Families",
+    "budget": 442000,
+    "dollars_per_police_dollar": 0.001,
+    "budget_millions": 0.442,
+    "percent_of_budget": 0.009,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "City Commissioners",
+    "budget": 12229691,
+    "dollars_per_police_dollar": 0.016,
+    "budget_millions": 12.23,
+    "percent_of_budget": 0.25,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "City Controller",
+    "budget": 9554751,
+    "dollars_per_police_dollar": 0.013,
+    "budget_millions": 9.555,
+    "percent_of_budget": 0.195,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "City Council",
+    "budget": 17277973,
+    "dollars_per_police_dollar": 0.023,
+    "budget_millions": 17.278,
+    "percent_of_budget": 0.353,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "City Rep",
+    "budget": 0,
+    "dollars_per_police_dollar": 0,
+    "budget_millions": 0,
+    "percent_of_budget": 0,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "City Treasurer",
+    "budget": 1581875,
+    "dollars_per_police_dollar": 0.002,
+    "budget_millions": 1.582,
+    "percent_of_budget": 0.032,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Civil Service Commission",
+    "budget": 6924691,
+    "dollars_per_police_dollar": 0.009,
+    "budget_millions": 6.925,
+    "percent_of_budget": 0.141,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Commerce",
+    "budget": 20451358,
+    "dollars_per_police_dollar": 0.027,
+    "budget_millions": 20.451,
+    "percent_of_budget": 0.418,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Community Empowerment",
+    "budget": 45000,
+    "dollars_per_police_dollar": 0,
+    "budget_millions": 0.045,
+    "percent_of_budget": 0.001,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Debt Service",
+    "budget": 280844931,
+    "dollars_per_police_dollar": 0.369,
+    "budget_millions": 280.845,
+    "percent_of_budget": 5.734,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "District Attorney",
+    "budget": 33335098,
+    "dollars_per_police_dollar": 0.044,
+    "budget_millions": 33.335,
+    "percent_of_budget": 0.681,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Finance",
+    "budget": 1803194594,
+    "dollars_per_police_dollar": 2.372,
+    "budget_millions": 1803.195,
+    "percent_of_budget": 36.814,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Fire",
+    "budget": 320815508,
+    "dollars_per_police_dollar": 0.422,
+    "budget_millions": 320.816,
+    "percent_of_budget": 6.55,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "First Judicial District",
+    "budget": 116036029,
+    "dollars_per_police_dollar": 0.153,
+    "budget_millions": 116.036,
+    "percent_of_budget": 2.369,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Fleet",
+    "budget": 56352347,
+    "dollars_per_police_dollar": 0.074,
+    "budget_millions": 56.352,
+    "percent_of_budget": 1.15,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Free Library",
+    "budget": 39293199,
+    "dollars_per_police_dollar": 0.052,
+    "budget_millions": 39.293,
+    "percent_of_budget": 0.802,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Homeless Services",
+    "budget": 47984241,
+    "dollars_per_police_dollar": 0.063,
+    "budget_millions": 47.984,
+    "percent_of_budget": 0.98,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Human Relations",
+    "budget": 2420200,
+    "dollars_per_police_dollar": 0.003,
+    "budget_millions": 2.42,
+    "percent_of_budget": 0.049,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Human Resources",
+    "budget": 5605339,
+    "dollars_per_police_dollar": 0.007,
+    "budget_millions": 5.605,
+    "percent_of_budget": 0.114,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Human Services",
+    "budget": 162105765,
+    "dollars_per_police_dollar": 0.213,
+    "budget_millions": 162.106,
+    "percent_of_budget": 3.31,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Innovation and Technology",
+    "budget": 129337841,
+    "dollars_per_police_dollar": 0.17,
+    "budget_millions": 129.338,
+    "percent_of_budget": 2.641,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Inspector General",
+    "budget": 1450681,
+    "dollars_per_police_dollar": 0.002,
+    "budget_millions": 1.451,
+    "percent_of_budget": 0.03,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Labor",
+    "budget": 2772104,
+    "dollars_per_police_dollar": 0.004,
+    "budget_millions": 2.772,
+    "percent_of_budget": 0.057,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Law",
+    "budget": 14513482,
+    "dollars_per_police_dollar": 0.019,
+    "budget_millions": 14.513,
+    "percent_of_budget": 0.296,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Licenses & Inspections",
+    "budget": 37718816,
+    "dollars_per_police_dollar": 0.05,
+    "budget_millions": 37.719,
+    "percent_of_budget": 0.77,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Managing Director",
+    "budget": 100938973,
+    "dollars_per_police_dollar": 0.133,
+    "budget_millions": 100.939,
+    "percent_of_budget": 2.061,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Mayor",
+    "budget": 6433592,
+    "dollars_per_police_dollar": 0.008,
+    "budget_millions": 6.434,
+    "percent_of_budget": 0.131,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Mural Arts",
+    "budget": 2004562,
+    "dollars_per_police_dollar": 0.003,
+    "budget_millions": 2.005,
+    "percent_of_budget": 0.041,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Parks & Rec",
+    "budget": 53044397,
+    "dollars_per_police_dollar": 0.07,
+    "budget_millions": 53.044,
+    "percent_of_budget": 1.083,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Planning & Development",
+    "budget": 7625987,
+    "dollars_per_police_dollar": 0.01,
+    "budget_millions": 7.626,
+    "percent_of_budget": 0.156,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Police",
+    "budget": 760296663,
+    "dollars_per_police_dollar": 1,
+    "budget_millions": 760.297,
+    "percent_of_budget": 15.522,
+    "police_col": "1",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Prisons",
+    "budget": 217202744,
+    "dollars_per_police_dollar": 0.286,
+    "budget_millions": 217.203,
+    "percent_of_budget": 4.434,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Procurement",
+    "budget": 4744736,
+    "dollars_per_police_dollar": 0.006,
+    "budget_millions": 4.745,
+    "percent_of_budget": 0.097,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Property Assessment",
+    "budget": 16060395,
+    "dollars_per_police_dollar": 0.021,
+    "budget_millions": 16.06,
+    "percent_of_budget": 0.328,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Public Health",
+    "budget": 158975093,
+    "dollars_per_police_dollar": 0.209,
+    "budget_millions": 158.975,
+    "percent_of_budget": 3.246,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Public Property",
+    "budget": 205808870,
+    "dollars_per_police_dollar": 0.271,
+    "budget_millions": 205.809,
+    "percent_of_budget": 4.202,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Records",
+    "budget": 3966955,
+    "dollars_per_police_dollar": 0.005,
+    "budget_millions": 3.967,
+    "percent_of_budget": 0.081,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Register of Wills",
+    "budget": 4221429,
+    "dollars_per_police_dollar": 0.006,
+    "budget_millions": 4.221,
+    "percent_of_budget": 0.086,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Revenue",
+    "budget": 29024068,
+    "dollars_per_police_dollar": 0.038,
+    "budget_millions": 29.024,
+    "percent_of_budget": 0.593,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Revision of Taxes",
+    "budget": 1040543,
+    "dollars_per_police_dollar": 0.001,
+    "budget_millions": 1.041,
+    "percent_of_budget": 0.021,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Sheriff",
+    "budget": 26769152,
+    "dollars_per_police_dollar": 0.035,
+    "budget_millions": 26.769,
+    "percent_of_budget": 0.547,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Streets",
+    "budget": 151490206,
+    "dollars_per_police_dollar": 0.199,
+    "budget_millions": 151.49,
+    "percent_of_budget": 3.093,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  },
+  {
+    "name": "Sustainability",
+    "budget": 1202990,
+    "dollars_per_police_dollar": 0.002,
+    "budget_millions": 1.203,
+    "percent_of_budget": 0.025,
+    "police_col": "0",
+    "total_budget": 4898185000,
+    "total_budget_millions": 4898.185
+  }
+]

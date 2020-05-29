@@ -1,0 +1,542 @@
+[
+  {
+    "name": "Aging",
+    "fiscal_year": 2020,
+    "budget": 34573159,
+    "dollars_per_police_dollar": 0.019,
+    "percent_of_budget": 0.181,
+    "total_budget": 19076137549.25,
+    "budget_millions": 34.573,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Airports",
+    "fiscal_year": 2020,
+    "budget": 0,
+    "dollars_per_police_dollar": 0,
+    "percent_of_budget": 0,
+    "total_budget": 19076137549.25,
+    "budget_millions": 0,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Animal Services",
+    "fiscal_year": 2020,
+    "budget": 30892540.68,
+    "dollars_per_police_dollar": 0.017,
+    "percent_of_budget": 0.162,
+    "total_budget": 19076137549.25,
+    "budget_millions": 30.893,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Building and Safety",
+    "fiscal_year": 2020,
+    "budget": 509751996.08,
+    "dollars_per_police_dollar": 0.282,
+    "percent_of_budget": 2.672,
+    "total_budget": 19076137549.25,
+    "budget_millions": 509.752,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Cannabis Regulation",
+    "fiscal_year": 2020,
+    "budget": 23181074.56,
+    "dollars_per_police_dollar": 0.013,
+    "percent_of_budget": 0.122,
+    "total_budget": 19076137549.25,
+    "budget_millions": 23.181,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "City Administrative Officer",
+    "fiscal_year": 2020,
+    "budget": 2088772623.04,
+    "dollars_per_police_dollar": 1.156,
+    "percent_of_budget": 10.95,
+    "total_budget": 19076137549.25,
+    "budget_millions": 2088.773,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "City Attorney",
+    "fiscal_year": 2020,
+    "budget": 173984237.89,
+    "dollars_per_police_dollar": 0.096,
+    "percent_of_budget": 0.912,
+    "total_budget": 19076137549.25,
+    "budget_millions": 173.984,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "City Clerk",
+    "fiscal_year": 2020,
+    "budget": 34626037.88,
+    "dollars_per_police_dollar": 0.019,
+    "percent_of_budget": 0.182,
+    "total_budget": 19076137549.25,
+    "budget_millions": 34.626,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "City Employees Retirement System",
+    "fiscal_year": 2020,
+    "budget": 1243052611,
+    "dollars_per_police_dollar": 0.688,
+    "percent_of_budget": 6.516,
+    "total_budget": 19076137549.25,
+    "budget_millions": 1243.053,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "City Ethics Commission",
+    "fiscal_year": 2020,
+    "budget": 10127620,
+    "dollars_per_police_dollar": 0.006,
+    "percent_of_budget": 0.053,
+    "total_budget": 19076137549.25,
+    "budget_millions": 10.128,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "City Planning",
+    "fiscal_year": 2020,
+    "budget": 97863853.16,
+    "dollars_per_police_dollar": 0.054,
+    "percent_of_budget": 0.513,
+    "total_budget": 19076137549.25,
+    "budget_millions": 97.864,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Controller",
+    "fiscal_year": 2020,
+    "budget": 70818029.11,
+    "dollars_per_police_dollar": 0.039,
+    "percent_of_budget": 0.371,
+    "total_budget": 19076137549.25,
+    "budget_millions": 70.818,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Council",
+    "fiscal_year": 2020,
+    "budget": 62311344.09,
+    "dollars_per_police_dollar": 0.034,
+    "percent_of_budget": 0.327,
+    "total_budget": 19076137549.25,
+    "budget_millions": 62.311,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Cultural Affairs",
+    "fiscal_year": 2020,
+    "budget": 59061542.58,
+    "dollars_per_police_dollar": 0.033,
+    "percent_of_budget": 0.31,
+    "total_budget": 19076137549.25,
+    "budget_millions": 59.062,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Disability",
+    "fiscal_year": 2020,
+    "budget": 4731153.37,
+    "dollars_per_police_dollar": 0.003,
+    "percent_of_budget": 0.025,
+    "total_budget": 19076137549.25,
+    "budget_millions": 4.731,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Economic and Workforce Development Department",
+    "fiscal_year": 2020,
+    "budget": 112877197.02,
+    "dollars_per_police_dollar": 0.062,
+    "percent_of_budget": 0.592,
+    "total_budget": 19076137549.25,
+    "budget_millions": 112.877,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "El Pueblo De Los Angeles Historical Monument Authority",
+    "fiscal_year": 2020,
+    "budget": 6714809.01,
+    "dollars_per_police_dollar": 0.004,
+    "percent_of_budget": 0.035,
+    "total_budget": 19076137549.25,
+    "budget_millions": 6.715,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Emergency Management",
+    "fiscal_year": 2020,
+    "budget": 4096264.52,
+    "dollars_per_police_dollar": 0.002,
+    "percent_of_budget": 0.021,
+    "total_budget": 19076137549.25,
+    "budget_millions": 4.096,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Emergency Operations Board",
+    "fiscal_year": 2020,
+    "budget": 5087867.71,
+    "dollars_per_police_dollar": 0.003,
+    "percent_of_budget": 0.027,
+    "total_budget": 19076137549.25,
+    "budget_millions": 5.088,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Employee Relations Board",
+    "fiscal_year": 2020,
+    "budget": 458987,
+    "dollars_per_police_dollar": 0,
+    "percent_of_budget": 0.002,
+    "total_budget": 19076137549.25,
+    "budget_millions": 0.459,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Fire",
+    "fiscal_year": 2020,
+    "budget": 740654658.93,
+    "dollars_per_police_dollar": 0.41,
+    "percent_of_budget": 3.883,
+    "total_budget": 19076137549.25,
+    "budget_millions": 740.655,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "General Services",
+    "fiscal_year": 2020,
+    "budget": 510788990.25,
+    "dollars_per_police_dollar": 0.283,
+    "percent_of_budget": 2.678,
+    "total_budget": 19076137549.25,
+    "budget_millions": 510.789,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Harbor",
+    "fiscal_year": 2020,
+    "budget": 0,
+    "dollars_per_police_dollar": 0,
+    "percent_of_budget": 0,
+    "total_budget": 19076137549.25,
+    "budget_millions": 0,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Housing and Community Investment Department",
+    "fiscal_year": 2020,
+    "budget": 509799205.35,
+    "dollars_per_police_dollar": 0.282,
+    "percent_of_budget": 2.672,
+    "total_budget": 19076137549.25,
+    "budget_millions": 509.799,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Information Technology Agency",
+    "fiscal_year": 2020,
+    "budget": 128213318.24,
+    "dollars_per_police_dollar": 0.071,
+    "percent_of_budget": 0.672,
+    "total_budget": 19076137549.25,
+    "budget_millions": 128.213,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Library",
+    "fiscal_year": 2020,
+    "budget": 197542863,
+    "dollars_per_police_dollar": 0.109,
+    "percent_of_budget": 1.036,
+    "total_budget": 19076137549.25,
+    "budget_millions": 197.543,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Los Angeles Department of Convention and Tourism Development",
+    "fiscal_year": 2020,
+    "budget": 8279448.85,
+    "dollars_per_police_dollar": 0.005,
+    "percent_of_budget": 0.043,
+    "total_budget": 19076137549.25,
+    "budget_millions": 8.279,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Mayor",
+    "fiscal_year": 2020,
+    "budget": 89633426.09,
+    "dollars_per_police_dollar": 0.05,
+    "percent_of_budget": 0.47,
+    "total_budget": 19076137549.25,
+    "budget_millions": 89.633,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Neighborhood Empowerment",
+    "fiscal_year": 2020,
+    "budget": 7031044.62,
+    "dollars_per_police_dollar": 0.004,
+    "percent_of_budget": 0.037,
+    "total_budget": 19076137549.25,
+    "budget_millions": 7.031,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Non-Departmental - Appropriations to Special Purpose Fund",
+    "fiscal_year": 2020,
+    "budget": 2746843300.74,
+    "dollars_per_police_dollar": 1.521,
+    "percent_of_budget": 14.399,
+    "total_budget": 19076137549.25,
+    "budget_millions": 2746.843,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Non-Departmental - Capital Finance Administration",
+    "fiscal_year": 2020,
+    "budget": 253182072,
+    "dollars_per_police_dollar": 0.14,
+    "percent_of_budget": 1.327,
+    "total_budget": 19076137549.25,
+    "budget_millions": 253.182,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Non-Departmental - Capital Improvement Expense Program",
+    "fiscal_year": 2020,
+    "budget": 69842932.93,
+    "dollars_per_police_dollar": 0.039,
+    "percent_of_budget": 0.366,
+    "total_budget": 19076137549.25,
+    "budget_millions": 69.843,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Non-Departmental - General",
+    "fiscal_year": 2020,
+    "budget": 1894284946.91,
+    "dollars_per_police_dollar": 1.049,
+    "percent_of_budget": 9.93,
+    "total_budget": 19076137549.25,
+    "budget_millions": 1894.285,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Non-Departmental - General City Purposes",
+    "fiscal_year": 2020,
+    "budget": 193793523.82,
+    "dollars_per_police_dollar": 0.107,
+    "percent_of_budget": 1.016,
+    "total_budget": 19076137549.25,
+    "budget_millions": 193.794,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Non-Departmental - Human Resources Benefits",
+    "fiscal_year": 2020,
+    "budget": 1110450900.88,
+    "dollars_per_police_dollar": 0.615,
+    "percent_of_budget": 5.821,
+    "total_budget": 19076137549.25,
+    "budget_millions": 1110.451,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Non-Departmental - Liability Claims",
+    "fiscal_year": 2020,
+    "budget": 132926072,
+    "dollars_per_police_dollar": 0.074,
+    "percent_of_budget": 0.697,
+    "total_budget": 19076137549.25,
+    "budget_millions": 132.926,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Non-Departmental - Unappropriated Balance",
+    "fiscal_year": 2020,
+    "budget": 21965930.72,
+    "dollars_per_police_dollar": 0.012,
+    "percent_of_budget": 0.115,
+    "total_budget": 19076137549.25,
+    "budget_millions": 21.966,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Non-Departmental - Water and Electricity",
+    "fiscal_year": 2020,
+    "budget": 46693908,
+    "dollars_per_police_dollar": 0.026,
+    "percent_of_budget": 0.245,
+    "total_budget": 19076137549.25,
+    "budget_millions": 46.694,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Office of Finance",
+    "fiscal_year": 2020,
+    "budget": 182260699.35,
+    "dollars_per_police_dollar": 0.101,
+    "percent_of_budget": 0.955,
+    "total_budget": 19076137549.25,
+    "budget_millions": 182.261,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Pension",
+    "fiscal_year": 2020,
+    "budget": 1408825780.35,
+    "dollars_per_police_dollar": 0.78,
+    "percent_of_budget": 7.385,
+    "total_budget": 19076137549.25,
+    "budget_millions": 1408.826,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Personnel",
+    "fiscal_year": 2020,
+    "budget": 76423983.26,
+    "dollars_per_police_dollar": 0.042,
+    "percent_of_budget": 0.401,
+    "total_budget": 19076137549.25,
+    "budget_millions": 76.424,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Police",
+    "fiscal_year": 2020,
+    "budget": 1806272080.55,
+    "dollars_per_police_dollar": 1,
+    "percent_of_budget": 9.469,
+    "total_budget": 19076137549.25,
+    "budget_millions": 1806.272,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Public Accountability",
+    "fiscal_year": 2020,
+    "budget": 3093635,
+    "dollars_per_police_dollar": 0.002,
+    "percent_of_budget": 0.016,
+    "total_budget": 19076137549.25,
+    "budget_millions": 3.094,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Public Works - Board of Public Works",
+    "fiscal_year": 2020,
+    "budget": 39903513.98,
+    "dollars_per_police_dollar": 0.022,
+    "percent_of_budget": 0.209,
+    "total_budget": 19076137549.25,
+    "budget_millions": 39.904,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Public Works - Contract Administration",
+    "fiscal_year": 2020,
+    "budget": 41760718.7,
+    "dollars_per_police_dollar": 0.023,
+    "percent_of_budget": 0.219,
+    "total_budget": 19076137549.25,
+    "budget_millions": 41.761,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Public Works - Engineering",
+    "fiscal_year": 2020,
+    "budget": 109526435.12,
+    "dollars_per_police_dollar": 0.061,
+    "percent_of_budget": 0.574,
+    "total_budget": 19076137549.25,
+    "budget_millions": 109.526,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Public Works - Sanitation",
+    "fiscal_year": 2020,
+    "budget": 330765395.69,
+    "dollars_per_police_dollar": 0.183,
+    "percent_of_budget": 1.734,
+    "total_budget": 19076137549.25,
+    "budget_millions": 330.765,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Public Works - Street Lighting",
+    "fiscal_year": 2020,
+    "budget": 48068119.09,
+    "dollars_per_police_dollar": 0.027,
+    "percent_of_budget": 0.252,
+    "total_budget": 19076137549.25,
+    "budget_millions": 48.068,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Public Works - Street Services",
+    "fiscal_year": 2020,
+    "budget": 226277845.33,
+    "dollars_per_police_dollar": 0.125,
+    "percent_of_budget": 1.186,
+    "total_budget": 19076137549.25,
+    "budget_millions": 226.278,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Recreation and Parks",
+    "fiscal_year": 2020,
+    "budget": 346225529.81,
+    "dollars_per_police_dollar": 0.192,
+    "percent_of_budget": 1.815,
+    "total_budget": 19076137549.25,
+    "budget_millions": 346.226,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Recreation and Parks - Special Accounts",
+    "fiscal_year": 2020,
+    "budget": 209521889.73,
+    "dollars_per_police_dollar": 0.116,
+    "percent_of_budget": 1.098,
+    "total_budget": 19076137549.25,
+    "budget_millions": 209.522,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Transportation",
+    "fiscal_year": 2020,
+    "budget": 956147709.39,
+    "dollars_per_police_dollar": 0.529,
+    "percent_of_budget": 5.012,
+    "total_budget": 19076137549.25,
+    "budget_millions": 956.148,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Water and Power",
+    "fiscal_year": 2020,
+    "budget": 0,
+    "dollars_per_police_dollar": 0,
+    "percent_of_budget": 0,
+    "total_budget": 19076137549.25,
+    "budget_millions": 0,
+    "total_budget_millions": 19076.138
+  },
+  {
+    "name": "Zoo",
+    "fiscal_year": 2020,
+    "budget": 56154722.87,
+    "dollars_per_police_dollar": 0.031,
+    "percent_of_budget": 0.294,
+    "total_budget": 19076137549.25,
+    "budget_millions": 56.155,
+    "total_budget_millions": 19076.138
+  }
+]

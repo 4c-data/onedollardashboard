@@ -96,18 +96,36 @@ $("#table").DataTable({
   });
 }
 
-
-function make_dropdown(dropdown_id, dropdown_values, starter, starter_div) {
-  $(dropdown_id).empty();
-  $.each(dropdown_values, function(val, text) {
-    $(dropdown_id).append(new Option(text, val));
+function resizeChosen() {
+  $(".chosen-container").each(function() {
+    $(this).attr('style', 'width: 85%');
   });
+}
 
-  if (Array.isArray(starter)) {
-    starter = starter[$(starter_div).val()]
+function make_dropdown() {
+  $('.simple-select').chosen();
+  resizeChosen();
+  cities = _.keys(cities_data)
+  if ($("#city_dropdown").val() == "0") {
+    dropdown_values = cities["Philadelphia"]
+  } else {
+    dropdown_values = cities[$("#city_dropdown").text()]
   }
 
-  $(dropdown_id).val(starter);
+  $("#city_dropdown").empty();
+  $.each(cities, function(val, text) {
+    $("#city_dropdown").append(new Option(text, val));
+  });
+  $("#city_dropdown").val(0);
+
+  year_values = cities_data[cities[$("#city_dropdown").val()]]
+  $("#year_dropdown").empty();
+  $.each(year_values, function(val, text) {
+    $("#year_dropdown").append(new Option(text, val));
+  });
+    $("#year_dropdown").val(0);
+
+  $('.simple-select').trigger('chosen:updated');
 }
 
 function make_bar_plot(data) {
