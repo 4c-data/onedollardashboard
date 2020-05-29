@@ -73,7 +73,7 @@
     </div>
     <script>
     make_dropdown();
-      data = get_budget_json("https://raw.githubusercontent.com/4c-data/onedollardashboard/master/data/clean/philly_budget.json");
+      data = get_budget_json();
       data = sortByKey(data, "percent_of_budget");
       make_bar_plot(data);
       makeTable(data);

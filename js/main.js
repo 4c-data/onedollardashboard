@@ -1,19 +1,10 @@
-function readCSV(csv) {
-  var result = null;
-  var scriptUrl = csv;
-  $.ajax({
-    url: scriptUrl,
-    type: 'get',
-    dataType: 'text',
-    async: false,
-    success: function(data) {
-      result = data;
-    }
-  });
-  return result;
-}
+
 
 function get_budget_json(url) {
+
+url = 'https://raw.githubusercontent.com/4c-data/onedollardashboard/master/data/clean/philly_budget.json';
+
+
 data = $.getJSON({
   url: url,
   type: 'get',
