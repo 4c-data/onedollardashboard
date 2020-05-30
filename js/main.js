@@ -53,12 +53,18 @@ function on_year_change() {
   table = makeTable(data);
 }
 
-function dollar_percent_toggle(dropdown_to_turnoff, type) {
-  $(dropdown_to_turnoff).prop("checked", false);
+function checkbox_toggle(box_to_check) {
+  box_status = $(box_to_check).prop("checked");
+  $("#percent").prop("checked", false);
+  $("#dollars").prop("checked", false);
+  $("#dollars_per_police_dollar").prop("checked", false);
+
+  $(box_to_check).prop("checked", box_status);
 
   if (!$("#dollars").is(':checked') &&
-    !$("#percent").is(':checked')) {
-    $("#dollars").prop("checked", true);
+    !$("#percent").is(':checked')&&
+      !$("#dollars_per_police_dollar").is(':checked')) {
+    $("#dollars_per_police_dollar").prop("checked", true);
   }
   remake_graph()
 }
@@ -94,7 +100,7 @@ function make_year_dropdown() {
   $.each(year_values, function(val, text) {
     $("#year_dropdown").append(new Option(text, val));
   });
-  $("#year_dropdown").val(0);
+  $("#year_dropdown").val(year_values.length-1);
   $('.simple-select').trigger('chosen:updated');
 }
 

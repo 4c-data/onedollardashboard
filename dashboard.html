@@ -61,10 +61,13 @@
     <br><br>
     <hr>
     <p>Show Budget as:</p>
-    <input type="checkbox" checked id="dollars" name="dollars" value="dollars" onchange="dollar_percent_toggle('#percent', 'dollars')"></input>
+    <input type="checkbox" checked id="dollars_per_police_dollar" name="dollars_per_police_dollar" value="dollars_per_police_dollar" onchange="checkbox_toggle('#dollars_per_police_dollar')"></input>
+    <label class="label-text fa" for="dollars_per_police_dollar">Dollars per $1 Spent on Police</label>
+    <br>
+    <input type="checkbox" id="dollars" name="dollars" value="dollars" onchange="checkbox_toggle('#dollars')"></input>
     <label class="label-text fa" for="dollars">Dollars</label>
     <br>
-    <input type="checkbox" id="percent" name="percent" value="percent" onchange="dollar_percent_toggle('#dollars', 'percent')"></input>
+    <input type="checkbox" id="percent" name="percent" value="percent" onchange="checkbox_toggle('#percent')"></input>
     <label class="label-text fa" for="percent">Percent</label>
   </div>
 

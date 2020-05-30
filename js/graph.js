@@ -7,12 +7,18 @@ function make_bar_plot(data) {
   if ($("#percent").is(':checked')) {
     type = "percent";
   }
+  if ($("#dollars_per_police_dollar").is(':checked')) {
+    type = "dollars_per_police_dollar";
+  }
 
   graph_label = "Annual Budget (dollars)";
   value_col = "budget";
   if (type == "percent") {
-    graph_label = "Annual Budget (% of Budget)";
+    graph_label = "% of Annual Budget";
     value_col = "percent_of_budget";
+  } else if (type == "dollars_per_police_dollar") {
+    graph_label = "Dollars per $1 Spent on Police";
+    value_col = "dollars_per_police_dollar";
   }
 
   for (var n = 0; n < data.length; n++) {
